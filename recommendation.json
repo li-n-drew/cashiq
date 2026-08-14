@@ -4,6 +4,6 @@
   "title": "Важное обновление",
   "message": "Мы обновили базу MCC-кодов. Теперь поиск стал еще точнее!",
   "actionText": "Посмотреть список",
-  "actionUrl": "https://cashiq.ru/mcc",
+  "actionUrl": "https://cashiq.ru",
   "priority": 10
 }
