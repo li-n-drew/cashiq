@@ -259,7 +259,7 @@
       "message": "CashIQ работает без интернета. Ваша база карт всегда доступна локально.",
       "priority": 4,
       "actionText": "ОК"
-    }
+    },
         {
       "active": true,
       "id": "fin_tip_1",
