@@ -5,7 +5,7 @@
       "id": "critical_update_2025",
       "title": "Обновление базы",
       "message": "Мы обновили базу MCC для банков Сбер и Т-Банк. Поиск стал точнее!",
-      "priority": 100,
+      "priority": 1000,
       "actionText": "Инфо",
       "actionUrl": "https://cashiq.ru/updates"
     },
