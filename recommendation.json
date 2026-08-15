@@ -1,9 +1,425 @@
 {
-  "active": true,
-  "id": "promo_1",
-  "title": "Важное обновление",
-  "message": "Мы добавили распознавание скриншотов. Теперь добавление категорий стало еще быстрее!",
-  "actionText": "Проверить обновление",
-  "actionUrl": "https://cashiq.ru",
-  "priority": 10
+  "promos": [
+    {
+      "active": true,
+      "id": "critical_update_2025",
+      "title": "Обновление базы",
+      "message": "Мы обновили базу MCC для банков Сбер и Т-Банк. Поиск стал точнее!",
+      "priority": 100,
+      "actionText": "Инфо",
+      "actionUrl": "https://cashiq.ru/updates"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_intro",
+      "title": "CashIQ Scan",
+      "message": "Распознавайте категории прямо со скриншотов банковских приложений!",
+      "priority": 20,
+      "actionText": "Скачать",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "tip_mcc_search",
+      "title": "Совет дня",
+      "message": "Не знаете категорию покупки? Используйте поиск по MCC в разделе Магазины.",
+      "priority": 10,
+      "actionText": "Поиск"
+    },
+    {
+      "active": true,
+      "id": "weekend_fun",
+      "title": "Планы на выходные?",
+      "message": "Не забудьте проверить кэшбэк в категориях Развлечения и Кафе.",
+      "priority": 15,
+      "daysOfWeek": [0, 6],
+      "actionText": "Карты"
+    },
+    {
+      "active": true,
+      "id": "month_end_limits",
+      "title": "Лимиты кэшбэка",
+      "message": "Конец месяца близко! Проверьте, не исчерпаны ли лимиты по вашим картам.",
+      "priority": 30,
+      "startDate": "2026-08-25",
+      "endDate": "2026-08-31",
+      "actionText": "Статистика"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_faster",
+      "title": "Ускорьте ввод",
+      "message": "CashIQ Scan сэкономит вам время. Просто загрузите скриншот категорий.",
+      "priority": 12,
+      "actionText": "RuStore",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "tg_community",
+      "title": "Мы в Telegram",
+      "message": "Присоединяйтесь к нашему чату, чтобы обсуждать лучшие карты и акции.",
+      "priority": 5,
+      "actionText": "Вступить",
+      "actionUrl": "https://t.me/cash_iq_support"
+    },
+    {
+      "active": true,
+      "id": "feature_loyalty",
+      "title": "Карты лояльности",
+      "message": "Добавляйте фото карт лояльности в карточки магазинов, чтобы они были под рукой.",
+      "priority": 8,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "feature_export",
+      "title": "Безопасность данных",
+      "message": "Рекомендуем сделать экспорт данных в разделе Профиль, чтобы не потерять список карт.",
+      "priority": 10,
+      "actionText": "Бэкап"
+    },
+    {
+      "active": true,
+      "id": "tip_custom_cat",
+      "title": "Свои категории",
+      "message": "Создавайте свои категории с привязкой к MCC для максимальной точности.",
+      "priority": 7,
+      "actionText": "Создать"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_mcc",
+      "title": "Сканер MCC",
+      "message": "В приложении CashIQ Scan можно проверить MCC-код любого магазина по чеку.",
+      "priority": 18,
+      "actionText": "Смотреть",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "tip_stats_filter",
+      "title": "Анализ расходов",
+      "message": "В разделе Статистика можно фильтровать кэшбэк по конкретным банкам.",
+      "priority": 5,
+      "actionText": "Открыть"
+    },
+    {
+      "active": true,
+      "id": "feedback_request",
+      "title": "Ваше мнение",
+      "message": "Помогите нам стать лучше! Напишите в поддержку, какой функции вам не хватает.",
+      "priority": 10,
+      "daysOfWeek": [2, 4],
+      "actionText": "Письмо",
+      "actionUrl": "mailto:support@cashiq.ru"
+    },
+    {
+      "active": true,
+      "id": "tip_dark_mode",
+      "title": "Темная тема",
+      "message": "Глаза устают? Переключите интерфейс в темный режим в настройках профиля.",
+      "priority": 3,
+      "actionText": "Настройки"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_free",
+      "title": "Бесплатный сканер",
+      "message": "Сканируйте чеки и скриншоты бесплатно с помощью CashIQ Scan.",
+      "priority": 15,
+      "actionText": "Скачать",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "tip_min_purchase",
+      "title": "Минимальная сумма",
+      "message": "Некоторые банки не начисляют кэшбэк за покупки до 100₽. Укажите это в настройках карты.",
+      "priority": 9,
+      "actionText": "Понятно"
+    },
+    {
+      "active": true,
+      "id": "new_banks_added",
+      "title": "Новые банки",
+      "message": "Мы добавили MCC-справочники для 5 новых региональных банков.",
+      "priority": 25,
+      "actionText": "Список",
+      "actionUrl": "https://cashiq.ru/banks"
+    },
+    {
+      "active": true,
+      "id": "tip_all_categories",
+      "title": "Категория «На все»",
+      "message": "Добавьте категорию «На все» для каждой карты, чтобы видеть базовый кэшбэк.",
+      "priority": 6,
+      "actionText": "Карты"
+    },
+    {
+      "active": true,
+      "id": "feature_merchant_tags",
+      "title": "Теги магазинов",
+      "message": "Добавляйте теги к магазинам, чтобы быстрее находить их через глобальный поиск.",
+      "priority": 4,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_v2",
+      "title": "Обновление Scan",
+      "message": "В CashIQ Scan появилась история сканирований. Попробуйте!",
+      "priority": 11,
+      "actionText": "RuStore",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "tip_bank_mcc",
+      "title": "MCC исключения",
+      "message": "Будьте внимательны: оплата налогов и ЖКХ часто попадает в исключения банков.",
+      "priority": 12,
+      "actionText": "Подробнее"
+    },
+    {
+      "active": true,
+      "id": "mid_month_stats",
+      "title": "Экватор месяца",
+      "message": "Пора проверить, сколько кэшбэка вы уже накопили в этом месяце!",
+      "priority": 10,
+      "startDate": "2026-08-14",
+      "endDate": "2026-08-16",
+      "actionText": "Смотреть"
+    },
+    {
+      "active": true,
+      "id": "tip_ios_web",
+      "title": "Веб-версия",
+      "message": "Пользуетесь iOS? У нас есть удобная веб-версия нашего сервиса.",
+      "priority": 2,
+      "actionText": "Сайт",
+      "actionUrl": "https://www.cashiq.ru"
+    },
+    {
+      "active": true,
+      "id": "tip_rounding",
+      "title": "Правила округления",
+      "message": "Помните: большинство банков округляют кэшбэк до целого рубля в меньшую сторону.",
+      "priority": 5,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_qr",
+      "title": "QR-коды чеков",
+      "message": "Сканируйте QR-коды на чеках в приложении Scan для мгновенного получения MCC.",
+      "priority": 14,
+      "actionText": "Скачать",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "feature_search_mcc",
+      "title": "База из 10 000 кодов",
+      "message": "Наш справочник MCC — один из самых полных. Пользуйтесь поиском бесплатно.",
+      "priority": 15,
+      "actionText": "Перейти"
+    },
+    {
+      "active": true,
+      "id": "tip_card_names",
+      "title": "Имена карт",
+      "message": "Давайте картам понятные названия (напр. «Зарплатная», «Для еды»), чтобы не путаться.",
+      "priority": 3,
+      "actionText": "Карты"
+    },
+    {
+      "active": true,
+      "id": "promo_scan_smart",
+      "title": "Умный алгоритм",
+      "message": "Scan автоматически понимает, какой банк на скриншоте. Попробуйте магию в деле!",
+      "priority": 16,
+      "actionText": "В RuStore",
+      "actionUrl": "https://www.rustore.ru/catalog/app/ru.cashiq.scan"
+    },
+    {
+      "active": true,
+      "id": "holiday_greeting",
+      "title": "С праздником!",
+      "message": "Команда CashIQ желает вам отличного дня и только выгодных покупок!",
+      "priority": 50,
+      "startDate": "2026-12-31",
+      "endDate": "2027-01-01",
+      "actionText": "Спасибо"
+    },
+    {
+      "active": true,
+      "id": "tip_offline_work",
+      "title": "Оффлайн режим",
+      "message": "CashIQ работает без интернета. Ваша база карт всегда доступна локально.",
+      "priority": 4,
+      "actionText": "ОК"
+    }
+        {
+      "active": true,
+      "id": "fin_tip_1",
+      "title": "Правило 24 часов",
+      "message": "Хочется сделать дорогую покупку? Подождите сутки. В 70% случаев желание пропадает, экономя ваш бюджет.",
+      "priority": 8,
+      "actionText": "Понятно"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_2",
+      "title": "Цена за килограмм",
+      "message": "В магазинах всегда смотрите на ценник за кг или литр. Часто маленькая упаковка стоит в разы дороже большой.",
+      "priority": 6,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_3",
+      "title": "Скрытые подписки",
+      "message": "Раз в месяц проверяйте список платных подписок в телефоне и банке. Ненужные могут съедать до 2000₽ в месяц.",
+      "priority": 7,
+      "actionText": "Проверить"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_4",
+      "title": "Список покупок",
+      "message": "Поход в магазин со списком снижает траты на 15-20%. Не давайте маркетингу победить ваш кошелек!",
+      "priority": 5,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_5",
+      "title": "Собственные марки",
+      "message": "Товары марок магазинов (СТМ) часто не уступают по качеству брендам, но стоят на 30-50% дешевле.",
+      "priority": 6,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_6",
+      "title": "Налоговый вычет",
+      "message": "Лечились, учились или занимались спортом? Не забудьте вернуть 13% через налоговый вычет.",
+      "priority": 10,
+      "actionText": "Как?",
+      "actionUrl": "https://www.gosuslugi.ru/help/faq/tax_declaration/2241"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_7",
+      "title": "Грейс-период",
+      "message": "Пользуетесь кредиткой? Всегда гасите долг до конца беспроцентного периода, чтобы не платить огромные %.",
+      "priority": 9,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_8",
+      "title": "Правило 50/30/20",
+      "message": "50% дохода — на нужды, 30% — на желания, 20% — на накопления. Идеальная формула финансовой свободы.",
+      "priority": 7,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_9",
+      "title": "Считайте в часах",
+      "message": "Перед покупкой посчитайте, сколько часов работы она стоит. Это быстро отрезвляет при ненужных тратах.",
+      "priority": 8,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_10",
+      "title": "Кэшбэк на кэшбэк",
+      "message": "Используйте бонусные карты магазинов вместе с банковским кэшбэком. Выгода суммируется!",
+      "priority": 5,
+      "actionText": "Понятно"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_11",
+      "title": "Оплата за год",
+      "message": "Подписки на сервисы при оплате за год обычно на 20-30% дешевле, чем при ежемесячном списании.",
+      "priority": 6,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_12",
+      "title": "Подушка безопасности",
+      "message": "Старайтесь держать запас денег минимум на 3 месяца жизни. Это дает спокойствие и уверенность.",
+      "priority": 10,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_13",
+      "title": "Округляйте траты",
+      "message": "Настройте в банке «Инвесткопилку» или округление трат. Незаметно для себя накопите на мечту.",
+      "priority": 7,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_14",
+      "title": "Проверяйте чеки",
+      "message": "Ошибки на кассе случаются чаще, чем кажется. Проверка чека сразу — залог того, что вы не переплатили.",
+      "priority": 5,
+      "actionText": "Понятно"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_15",
+      "title": "Не ходите голодным",
+      "message": "Поход в продуктовый на голодный желудок увеличивает средний чек на 30% за счет импульсивных покупок.",
+      "priority": 8,
+      "actionText": "Факт"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_16",
+      "title": "Стоимость владения",
+      "message": "Дешевая вещь, которая быстро сломается, дороже качественной, которая прослужит годы.",
+      "priority": 6,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_17",
+      "title": "Скидки — не экономия",
+      "message": "Помните: если вы купили вещь за 5000₽ со скидкой 50%, вы не сэкономили 5000₽, а потратили 5000₽.",
+      "priority": 7,
+      "actionText": "ОК"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_18",
+      "title": "Автоплатежи",
+      "message": "Настройте автоплатеж на ЖКХ и связь. Это застрахует вас от штрафов и пеней за просрочку.",
+      "priority": 5,
+      "actionText": "Инфо"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_19",
+      "title": "Сравнивайте цены",
+      "message": "Перед покупкой в офлайн-магазине проверьте цену на маркетплейсах. Разница может быть в 2 раза.",
+      "priority": 8,
+      "actionText": "Понятно"
+    },
+    {
+      "active": true,
+      "id": "fin_tip_20",
+      "title": "Тратьте с умом",
+      "message": "Кэшбэк — это приятно, но не стоит покупать ненужные вещи только ради бонусов.",
+      "priority": 4,
+      "actionText": "ОК"
+    }
+  ]
 }
